@@ -72,4 +72,4 @@ O ejecutar bash: bash setup.sh
 
 #### Check:
 
-Comprobar si las dependencias de requirements.txt se encuentran instaladas, caso contrario python install <cryptography>
+Comprobar si las dependencias de requirements.txt se encuentran instaladas, caso contrario python install cryptography
