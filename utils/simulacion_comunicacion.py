@@ -1,5 +1,5 @@
 from pathlib import Path
-from criptografia_rsa import cargar_clave_publica, cargar_clave_privada, cifrar_mensaje, descifrar_mensaje
+from utils.criptografia_rsa import cargar_clave_publica, cargar_clave_privada, cifrar_mensaje, descifrar_mensaje
 
 class SimulacionComunicacion:
     def __init__(self):

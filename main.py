@@ -1,10 +1,10 @@
 # main.py
 #libreria https://cryptography.io/
-from simulacion_comunicacion import SimulacionComunicacion
+from utils.simulacion_comunicacion import SimulacionComunicacion
 from pathlib import Path
-from generar_claves import generar_y_guardar_claves
-from simular_carga import simular_delay
-from simular_sniffer import simular_sniffer
+from utils.generar_claves import generar_y_guardar_claves
+from utils.simular_carga import simular_delay
+from utils.simular_sniffer import simular_sniffer
 
 def menu():
     print("\n--- Simulación de Comunicación Segura con RSA ---")
