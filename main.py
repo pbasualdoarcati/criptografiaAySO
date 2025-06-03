@@ -1,5 +1,3 @@
-# main.py
-#libreria https://cryptography.io/
 from utils.simulacion_comunicacion import SimulacionComunicacion
 from pathlib import Path
 from utils.generar_claves import generar_y_guardar_claves
